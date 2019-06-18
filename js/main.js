@@ -35,9 +35,9 @@ if (document.body.clientWidth < 768){
 uslugeShow.onclick = () => {
 	if (usluge.style.display == "block") {
 		usluge.style.display = "none";
-		uslugeShow.children[0].classList.remove("usluge-show-rotate");
+		uslugeShow.children[0].style.transform = "rotate(0deg)";
 	} else {
-		uslugeShow.children[0].classList.add("usluge-show-rotate");
+		uslugeShow.children[0].style.transform = "rotate(180deg)";
 		usluge.style.display = "block";
 	}
 }
@@ -45,9 +45,9 @@ uslugeShow.onclick = () => {
 proslaveShow.onclick = () => {
 	if (proslave.style.display == "block") {
 		proslave.style.display = "none";
-		proslaveShow.children[0].classList.remove("usluge-show-rotate");
+		proslaveShow.children[0].style.transform = "rotate(0deg)";
 	} else {
-		proslaveShow.children[0].classList.add("usluge-show-rotate");
+		proslaveShow.children[0].style.transform = "rotate(180deg)";
 		proslave.style.display = "block";
 	}
 }
@@ -68,6 +68,9 @@ hamBut.onclick = () => {
 			navFooter.children[0].classList.remove("show-footer");
 			navFooter.children[1].classList.remove("show-footer");
 			navBackground.style.opacity = "0.2";
+			logo.style.opacity = 1;
+			logo.style.marginLeft = cliWid / 2 - 27.5 + "px";
+			logoLanding.style.marginLeft = cliWid / 2 - 75 + "px";
 
 		}	else	{
 			firLin.classList.add("change1");
@@ -87,6 +90,11 @@ hamBut.onclick = () => {
 			navFooter.children[0].classList.add("show-footer");
 			navFooter.children[1].classList.add("show-footer");
 			navBackground.style.opacity = "0.7";
+			logo.style.transition = "0.5s";
+			logoLanding.style.transition = "0.5s";
+			logo.style.opacity = 0;
+			logo.style.marginLeft = cliWid - 100 + "px";
+			logoLanding.style.marginLeft = 175 + "px";
 		}
 
 		if (document.body.clientWidth < 768){

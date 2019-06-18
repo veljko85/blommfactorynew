@@ -32,7 +32,6 @@ body {
         transform: rotate(-45deg);
         top: 7px; }
   body .nav {
-    width: 250px;
     height: 100%;
     float: right;
     position: fixed;
@@ -40,7 +39,7 @@ body {
     background-color: rgba(22, 32, 39, 0.95);
     overflow-x: hidden;
     transition: 0.5s;
-    width: 0px;
+    width: 0;
     z-index: 3;
     text-align: center; }
     body .nav .logo-nav {
@@ -90,10 +89,15 @@ body {
         width: 60px;
         margin: 0 auto;
         opacity: 0; }
-        body .nav .nav-footer .social img {
-          width: 16px; }
-        body .nav .nav-footer .social img:last-child {
-          margin-left: 20px; }
+        body .nav .nav-footer .social a {
+          width: 16px;
+          opacity: 1;
+          display: inline-block;
+          margin-left: 0; }
+          body .nav .nav-footer .social a img {
+            width: 16px; }
+        body .nav .nav-footer .social a:last-child {
+          margin-left: 18px; }
       body .nav .nav-footer p {
         font: 400 13px 'Open Sans', sans-serif;
         color: #fff;

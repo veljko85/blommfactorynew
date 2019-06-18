@@ -42,7 +42,6 @@ body  {
 		}
 	}
 	.nav {
-		width: 250px;
 		height: 100%;
 		float: right;
 		position: fixed;
@@ -50,7 +49,7 @@ body  {
 		background-color: rgba(22, 32, 39, 0.95); 
 		overflow-x: hidden;
 		transition: 0.5s;
-		width: 0px;
+		width: 0;
 		z-index: 3;
 		text-align: center;
 
@@ -115,11 +114,17 @@ body  {
 				width: 60px;
 				margin: 0 auto;
 				opacity: 0;
-				img {
+				a {
 					width: 16px;
+					opacity: 1;
+					display: inline-block;
+					margin-left: 0;
+					img {
+						width: 16px;
+					}
 				}
-				img:last-child {
-					margin-left: 20px;
+				a:last-child {
+					margin-left: 18px;
 				}
 			}
 			p {
