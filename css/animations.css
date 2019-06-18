@@ -7,7 +7,7 @@
 }
 
 .show {
-	animation: show 2s forwards;
+	animation: show 1.5s forwards;
 }
 
 @keyframes show {
@@ -28,7 +28,7 @@
 }
 
 .show-footer {
-	animation: showFooter 2s forwards;
+	animation: showFooter 1.5s forwards;
 }
 
 @keyframes showFooter {
@@ -41,6 +41,14 @@
 
 	100% { opacity: 1; 
 	}
+}
+
+.landing-scale {
+	animation: scale 10s forwards;
+}
+
+@keyframes scale {
+	to { transform: scale(1.2); }
 }
 
 

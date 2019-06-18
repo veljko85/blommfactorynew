@@ -9,18 +9,24 @@ var nav = document.getElementById("nav");
 var heading = document.getElementById("heading");
 var uslugeShow = document.getElementById("usluge-show");
 var usluge = document.getElementById("usluge");
+var proslaveShow = document.getElementById("proslave-show");
+var proslave = document.getElementById("proslave");
 var navButtons = document.getElementsByClassName("nav-buttons");
 var navFooter = document.getElementById("nav-footer");
-
+var dekoracijaButton = document.getElementById("dekoracija-button");
+var navBackground = document.getElementById("nav-background");
+var logoLanding = document.getElementById("logo-landing");
 
 
 
 if (document.body.clientWidth < 768){
 	logo.style.marginLeft = cliWid / 2 - 27.5 + "px";
+	logoLanding.style.marginLeft = cliWid / 2 - 75 + "px";
+	logoLanding.style.marginTop = window.innerHeight / 2 - 75 - 62 + "px";
 }
 
 
-console.log(usluge.style.height);
+
 
 uslugeShow.onclick = () => {
 	if (usluge.style.display == "block") {
@@ -30,8 +36,18 @@ uslugeShow.onclick = () => {
 		uslugeShow.children[0].classList.add("usluge-show-rotate");
 		usluge.style.display = "block";
 	}
-
 }
+
+proslaveShow.onclick = () => {
+	if (proslave.style.display == "block") {
+		proslave.style.display = "none";
+		proslaveShow.children[0].classList.remove("usluge-show-rotate");
+	} else {
+		proslaveShow.children[0].classList.add("usluge-show-rotate");
+		proslave.style.display = "block";
+	}
+}
+
 console.log(navButtons);
 
 hamBut.onclick = () => {
@@ -41,46 +57,74 @@ hamBut.onclick = () => {
 			secLin.style.display = "block";
 			thiLin.classList.remove("change2");
 			uslugeShow.classList.remove("show-footer");
-			navButtons[0].classList.remove("show");
-			navButtons[1].classList.remove("show");
-			navButtons[2].classList.remove("show");
-			navButtons[3].classList.remove("show");
-			navButtons[4].classList.remove("show");
-			navButtons[5].classList.remove("show");
-			navButtons[6].classList.remove("show");
-			navButtons[7].classList.remove("show");
-			navButtons[8].classList.remove("show");
+			proslaveShow.classList.remove("show-footer");
+			for (var i = 0; i < navButtons.length; i++) {
+				navButtons[i].classList.remove("show");
+			}
+			dekoracijaButton.classList.remove("show-footer");
 			navFooter.children[0].classList.remove("show-footer");
 			navFooter.children[1].classList.remove("show-footer");
+			navBackground.style.display = "none";
 
 		}	else	{
 			firLin.classList.add("change1");
 			secLin.style.display = "none";
 			thiLin.classList.add("change2");
 			uslugeShow.classList.add("show-footer");
+			proslaveShow.classList.add("show-footer");
+			for (var i = 5; i < navButtons.length; i++) {
+				navButtons[i].classList.add("show");
+			}
 			navButtons[0].classList.add("show");
-			setTimeout('navButtons[1].classList.add("show");', 100);
-			setTimeout('navButtons[2].classList.add("show");', 200);
-			setTimeout('navButtons[3].classList.add("show");', 300);
-			setTimeout('navButtons[4].classList.add("show");', 400);
-			navButtons[5].classList.add("show");
-			navButtons[6].classList.add("show");
-			navButtons[7].classList.add("show");
-			navButtons[8].classList.add("show");
+			setTimeout('navButtons[1].classList.add("show");', 50);
+			setTimeout('navButtons[2].classList.add("show");', 100);
+			setTimeout('navButtons[3].classList.add("show");', 150);
+			setTimeout('navButtons[4].classList.add("show");', 200);
+			dekoracijaButton.classList.add("show-footer");
 			navFooter.children[0].classList.add("show-footer");
 			navFooter.children[1].classList.add("show-footer");
+			navBackground.style.display = "block";
 		}
 
 		if (document.body.clientWidth < 768){
-			if (nav.style.width == "65%") {
+			if (nav.style.width == "250px") {
 					nav.style.width = "0";
 			} else	{
-				nav.style.width = "65%";
+				nav.style.width = "250px";
 			}
 		}
 }
 
-window.onscroll = () => {
+
+
+
+
+// slide show - landing page
+
+var current = 0,
+    slides = document.getElementsByClassName("landing-img");
+    slides[0].classList.add("landing-scale");
+setInterval(function() {
+
+	  	for (var i = 0; i < slides.length; i++) {
+	    slides[i].style.opacity = 0;
+	    }
+
+  
+  current = (current != slides.length - 1) ? current + 1 : 0;
+  slides[current].style.opacity = 1;
+  slides[current].classList.add("landing-scale");
+  
+
+	
+}, 9000);
+//console.log(current + 1);
+
+
+
+
+
+/*window.onscroll = () => {
 	if (cliWid < 768){
 		  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
 		    heading.style.height = "90px";
@@ -99,3 +143,4 @@ window.onscroll = () => {
 		  }
 		}
 }
+*/

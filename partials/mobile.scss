@@ -42,7 +42,7 @@ body  {
 		}
 	}
 	.nav {
-		width: 65%;
+		width: 250px;
 		height: 100%;
 		float: right;
 		position: fixed;
@@ -51,7 +51,7 @@ body  {
 		overflow-x: hidden;
 		transition: 0.5s;
 		width: 0px;
-		z-index: 1;
+		z-index: 2;
 		text-align: center;
 
 		.logo-nav {
@@ -82,12 +82,31 @@ body  {
 			opacity: 0;
 			margin-left: 50px;
 		}
+		#dekoracija-button {
+			margin-left: 0;
+		}
 		li {
 			padding: 15px 0;
 		}
 
 		.usluge {
 			display: none;
+		}
+		.proslave {
+			display: none;
+		}
+		.proslave-show {
+			width: 45px;
+			height: 55px;
+			background-color: rgba(255, 255, 255, 0.09);
+			float: right;
+			margin-top: -15px;
+			opacity: 0;
+			img {
+				width: 10px;
+				margin-top: 22.5px;
+				transition: 0.3s;
+			}
 		}
 		.nav-footer {
 			width: 100%;
@@ -106,9 +125,47 @@ body  {
 			p {
 				font: 400 13px 'Open Sans', sans-serif;
 				color: #fff;
-				margin: 50px;
+				margin: 50px 0;
 				opacity: 0;
 			}
+		}
+	}
+
+	.landing-container {
+	    width: 100%;
+	    height: 100%;
+	    overflow-x: hidden;
+	    overflow-y: hidden;
+	    
+	    .landing-slide {
+		    width: 100%;
+		    height: 100%;
+		    overflow-x: hidden;
+		    overflow-y: hidden;
+		    position: absolute;
+			img {
+				position: absolute;
+				transition: opacity 1s ease-in;
+				width: 100%;
+		    	height: 100%; 
+				}
+
+			img + img { opacity: 0; }
+		}
+
+		.nav-background {
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.5);
+			display : none;
+			position: absolute;
+			z-index: 1;
+		}
+		.logo-landing {
+			width: 150px;
+			height: 150px;
+			position: absolute;
+			z-index: 0.5;
 		}
 	}
 

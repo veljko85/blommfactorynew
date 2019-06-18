@@ -32,7 +32,7 @@ body {
         transform: rotate(-45deg);
         top: 7px; }
   body .nav {
-    width: 65%;
+    width: 250px;
     height: 100%;
     float: right;
     position: fixed;
@@ -41,7 +41,7 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
     width: 0px;
-    z-index: 1;
+    z-index: 2;
     text-align: center; }
     body .nav .logo-nav {
       width: 75px;
@@ -64,10 +64,25 @@ body {
       color: #fff;
       opacity: 0;
       margin-left: 50px; }
+    body .nav #dekoracija-button {
+      margin-left: 0; }
     body .nav li {
       padding: 15px 0; }
     body .nav .usluge {
       display: none; }
+    body .nav .proslave {
+      display: none; }
+    body .nav .proslave-show {
+      width: 45px;
+      height: 55px;
+      background-color: rgba(255, 255, 255, 0.09);
+      float: right;
+      margin-top: -15px;
+      opacity: 0; }
+      body .nav .proslave-show img {
+        width: 10px;
+        margin-top: 22.5px;
+        transition: 0.3s; }
     body .nav .nav-footer {
       width: 100%;
       margin-top: 40px; }
@@ -82,7 +97,37 @@ body {
       body .nav .nav-footer p {
         font: 400 13px 'Open Sans', sans-serif;
         color: #fff;
-        margin: 50px;
+        margin: 50px 0;
         opacity: 0; }
+  body .landing-container {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden; }
+    body .landing-container .landing-slide {
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: absolute; }
+      body .landing-container .landing-slide img {
+        position: absolute;
+        transition: opacity 1s ease-in;
+        width: 100%;
+        height: 100%; }
+      body .landing-container .landing-slide img + img {
+        opacity: 0; }
+    body .landing-container .nav-background {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: none;
+      position: absolute;
+      z-index: 1; }
+    body .landing-container .logo-landing {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      z-index: 0.5; }
 
 /*# sourceMappingURL=mobile.css.map */
