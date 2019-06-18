@@ -47,11 +47,11 @@ body  {
 		float: right;
 		position: fixed;
 		margin-top: -62px;
-		background-color: #162027; 
+		background-color: rgba(22, 32, 39, 0.95); 
 		overflow-x: hidden;
 		transition: 0.5s;
 		width: 0px;
-		z-index: 2;
+		z-index: 3;
 		text-align: center;
 
 		.logo-nav {
@@ -133,13 +133,11 @@ body  {
 
 	.landing-container {
 	    width: 100%;
-	    height: 100%;
 	    overflow-x: hidden;
 	    overflow-y: hidden;
 	    
 	    .landing-slide {
 		    width: 100%;
-		    height: 100%;
 		    overflow-x: hidden;
 		    overflow-y: hidden;
 		    position: absolute;
@@ -147,7 +145,7 @@ body  {
 				position: absolute;
 				transition: opacity 1s ease-in;
 				width: 100%;
-		    	height: 100%; 
+		    	height: 100%;
 				}
 
 			img + img { opacity: 0; }
@@ -155,9 +153,8 @@ body  {
 
 		.nav-background {
 			width: 100%;
-			height: 100%;
-			background-color: rgba(0, 0, 0, 0.5);
-			display : none;
+			background-color: #000;
+			opacity: 0.2;
 			position: absolute;
 			z-index: 1;
 		}
@@ -165,7 +162,7 @@ body  {
 			width: 150px;
 			height: 150px;
 			position: absolute;
-			z-index: 0.5;
+			z-index: 2;
 		}
 	}
 

@@ -6,6 +6,8 @@
 	to { transform: rotate(180deg); }
 }
 
+
+
 .show {
 	animation: show 1.5s forwards;
 }
@@ -26,6 +28,7 @@
 		 margin-left: 0;
 	}
 }
+
 
 .show-footer {
 	animation: showFooter 1.5s forwards;
