@@ -101,7 +101,7 @@ body {
       body .nav .nav-footer p {
         font: 400 13px 'Open Sans', sans-serif;
         color: #fff;
-        margin: 50px 0;
+        margin-top: 25px;
         opacity: 0; }
   body .landing-container {
     width: 100%;
