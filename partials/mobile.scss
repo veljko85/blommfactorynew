@@ -130,13 +130,13 @@ body  {
 			p {
 				font: 400 13px 'Open Sans', sans-serif;
 				color: #fff;
-				margin-top: 25px;
+				margin: 25px 0 40px 0;
 				opacity: 0;
 			}
 		}
 	}
 
-	.landing-container {
+	.main-container {
 	    width: 100%;
 	    overflow-x: hidden;
 	    overflow-y: hidden;
@@ -168,6 +168,14 @@ body  {
 			height: 150px;
 			position: absolute;
 			z-index: 2;
+		}
+
+		/* ABOUT US */
+
+		.about {
+			width: 100%;
+			height: 300px;
+			background-color: red;
 		}
 	}
 

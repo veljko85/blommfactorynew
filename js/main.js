@@ -133,25 +133,18 @@ setInterval(function() {
 
 
 
+$(document).ready(function()	{
+
+    	$(".nav-buttons").click( function(){
+
+		$(".landing-slide").hide();
+		$(".nav-background").hide();
+		$(".logo-landing").hide();
+
+	        $(".main-container").load($(this).attr("href")).hide().fadeIn();
+            	return(false); 
+
+    	}); 
 
 
-/*window.onscroll = () => {
-	if (cliWid < 768){
-		  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-		    heading.style.height = "90px";
-		    logo.style.width = "70px";
-		    hamBut.style.marginTop = "35.5px"
-		    logo.style.marginLeft = cliWid / 2 - 90 + "px";
-		    nav.style.marginTop = "97px";
-		    logo.src = "img/blommblack1.png"
-		  } else {
-		  	heading.style.height = "130px";
-		    logo.style.width = "110px";
-		    hamBut.style.marginTop = "55.5px"
-		    logo.style.marginLeft = cliWid / 2 - 110 + "px";
-		    nav.style.marginTop = "137px";
-		    logo.src = "img/blommwhite1.png"
-		  }
-		}
-}
-*/
+}); 

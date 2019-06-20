@@ -102,34 +102,39 @@ body {
       body .nav .nav-footer p {
         font: 400 13px 'Open Sans', sans-serif;
         color: #fff;
-        margin-top: 25px;
+        margin: 25px 0 40px 0;
         opacity: 0; }
-  body .landing-container {
+  body .main-container {
     width: 100%;
     overflow-x: hidden;
-    overflow-y: hidden; }
-    body .landing-container .landing-slide {
+    overflow-y: hidden;
+    /* ABOUT US */ }
+    body .main-container .landing-slide {
       width: 100%;
       overflow-x: hidden;
       overflow-y: hidden;
       position: absolute; }
-      body .landing-container .landing-slide img {
+      body .main-container .landing-slide img {
         position: absolute;
         transition: opacity 1s ease-in;
         width: 100%;
         height: 100%; }
-      body .landing-container .landing-slide img + img {
+      body .main-container .landing-slide img + img {
         opacity: 0; }
-    body .landing-container .nav-background {
+    body .main-container .nav-background {
       width: 100%;
       background-color: #000;
       opacity: 0.2;
       position: absolute;
       z-index: 1; }
-    body .landing-container .logo-landing {
+    body .main-container .logo-landing {
       width: 150px;
       height: 150px;
       position: absolute;
       z-index: 2; }
+    body .main-container .about {
+      width: 100%;
+      height: 300px;
+      background-color: red; }
 
 /*# sourceMappingURL=style.css.map */
