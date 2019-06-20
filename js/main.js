@@ -31,32 +31,19 @@ if (document.body.clientWidth < 768){
 
 
 
-
-uslugeShow.onclick = () => {
-	if (usluge.style.display == "block") {
-		usluge.style.display = "none";
-		uslugeShow.children[0].style.transform = "rotate(0deg)";
+function inNavExpand (thing, thingShow) {
+	if (thing.style.display == "block") {
+		thing.style.display = "none";
+		thingShow.children[0].style.transform = "rotate(0deg)";
 	} else {
-		uslugeShow.children[0].style.transform = "rotate(180deg)";
-		usluge.style.display = "block";
-	}
-}
-
-proslaveShow.onclick = () => {
-	if (proslave.style.display == "block") {
-		proslave.style.display = "none";
-		proslaveShow.children[0].style.transform = "rotate(0deg)";
-	} else {
-		proslaveShow.children[0].style.transform = "rotate(180deg)";
-		proslave.style.display = "block";
+		thingShow.children[0].style.transform = "rotate(180deg)";
+		thing.style.display = "block";
 	}
 }
 
 
-hamBut.onclick = () => {
-
-		if (secLin.style.display == "none") {
-			firLin.classList.remove("change1");
+function navClose () {
+	firLin.classList.remove("change1");
 			secLin.style.display = "block";
 			thiLin.classList.remove("change2");
 			uslugeShow.classList.remove("show-footer");
@@ -71,9 +58,10 @@ hamBut.onclick = () => {
 			logo.style.opacity = 1;
 			logo.style.marginLeft = cliWid / 2 - 27.5 + "px";
 			logoLanding.style.marginLeft = cliWid / 2 - 75 + "px";
+}
 
-		}	else	{
-			firLin.classList.add("change1");
+function navOpen () {
+	firLin.classList.add("change1");
 			secLin.style.display = "none";
 			thiLin.classList.add("change2");
 			uslugeShow.classList.add("show-footer");
@@ -95,6 +83,15 @@ hamBut.onclick = () => {
 			logo.style.opacity = 0;
 			logo.style.marginLeft = cliWid - 100 + "px";
 			logoLanding.style.marginLeft = 175 + "px";
+}
+
+hamBut.onclick = () => {
+
+		if (secLin.style.display == "none") {
+			navClose();
+
+		}	else	{
+			navOpen();
 		}
 
 		if (document.body.clientWidth < 768){
@@ -106,30 +103,20 @@ hamBut.onclick = () => {
 		}
 }
 
+uslugeShow.onclick = () => {
+		inNavExpand(usluge, uslugeShow);
+}
+
+proslaveShow.onclick = () => {
+	inNavExpand(proslave, proslaveShow);
+}
 
 
 
 
-// slide show - landing page
 
-var current = 0,
-    slides = document.getElementsByClassName("landing-img");
-    slides[0].classList.add("landing-scale");
-setInterval(function() {
 
-	  	for (var i = 0; i < slides.length; i++) {
-	    slides[i].style.opacity = 0;
-	    }
 
-  
-  current = (current != slides.length - 1) ? current + 1 : 0;
-  slides[current].style.opacity = 1;
-  slides[current].classList.add("landing-scale");
-  
-
-	
-}, 9000);
-//console.log(current + 1);
 
 
 
@@ -138,8 +125,8 @@ $(document).ready(function()	{
     	$(".nav-buttons").click( function(){
 
 		$(".landing-slide").hide();
-		$(".nav-background").hide();
 		$(".logo-landing").hide();
+		navClose();
 
 	        $(".main-container").load($(this).attr("href")).hide().fadeIn();
             	return(false); 
@@ -148,3 +135,7 @@ $(document).ready(function()	{
 
 
 }); 
+
+
+
+
