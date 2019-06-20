@@ -3,6 +3,13 @@ body {
   width: 100%;
   height: 100%;
   background-color: #fff; }
+  body .nav-background {
+    width: 100%;
+    background-color: #000;
+    opacity: 0.2;
+    position: absolute;
+    z-index: 1;
+    margin-top: 62px; }
   body header {
     width: 100%;
     height: 62px;
@@ -121,18 +128,12 @@ body {
         height: 100%; }
       body .main-container .landing-slide img + img {
         opacity: 0; }
-    body .main-container .nav-background {
-      width: 100%;
-      background-color: #000;
-      opacity: 0.2;
-      position: absolute;
-      z-index: 1; }
     body .main-container .logo-landing {
       width: 150px;
       height: 150px;
       position: absolute;
       z-index: 2; }
-    body .main-container .about {
+    body .main-container .about-us {
       width: 100%;
       height: 300px;
       background-color: red; }
