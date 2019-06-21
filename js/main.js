@@ -58,6 +58,8 @@ function navClose () {
 			logo.style.opacity = 1;
 			logo.style.marginLeft = cliWid / 2 - 27.5 + "px";
 			logoLanding.style.marginLeft = cliWid / 2 - 75 + "px";
+			nav.style.width = "0";
+			navBackground.style.display = "none";
 }
 
 function navOpen () {
@@ -83,6 +85,8 @@ function navOpen () {
 			logo.style.opacity = 0;
 			logo.style.marginLeft = cliWid - 100 + "px";
 			logoLanding.style.marginLeft = 175 + "px";
+			nav.style.width = "250px"
+			navBackground.style.display = "block";
 }
 
 hamBut.onclick = () => {
@@ -94,13 +98,6 @@ hamBut.onclick = () => {
 			navOpen();
 		}
 
-		if (document.body.clientWidth < 768){
-			if (nav.style.width == "250px") {
-					nav.style.width = "0";
-			} else	{
-				nav.style.width = "250px";
-			}
-		}
 }
 
 uslugeShow.onclick = () => {
