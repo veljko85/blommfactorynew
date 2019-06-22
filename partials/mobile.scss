@@ -152,7 +152,7 @@ body  {
 	.main-container {
 	    width: 100%;
 	    padding-top: 62px;
-
+	    overflow-x: hidden;
 	    
 
 	    
@@ -253,6 +253,124 @@ body  {
 				}
 			}
 
+		}
+				/* CONTACT */
+
+		.contact {
+			width: 100%;
+			background-color: #fff;
+			.contact-head {
+				width: 100%;
+				height: 130px;
+				background-color: #162027;
+				h1 {
+					color: #fff;
+					font: 400 21px 'Open Sans', sans-serif;
+					text-align: center;
+					padding-top: 70px;
+				}
+			}
+		}
+
+			/* VENCANJA*/
+
+		.vencanja {
+			width: 100%;
+			background-color: #162027;
+			text-align: center;
+			.vencanja-head {
+				width: 100%;
+				background-color: #162027;
+				padding: 50px 0 10px 0;
+				.img-container {
+					background-image: url(../img/vencanje-mob.jpg);
+					-webkit-background-size: cover;
+					background-size: cover;
+					background-position: center;
+					height: 400px;
+					h2 {
+						font: 500 32px 'Open Sans', sans-serif;
+						color: #fff;
+						padding-top: 30%;
+					}
+					img {
+						width: 80px;
+					}
+				}
+				img {
+					width: 130px;
+					padding: 10px;
+
+				}
+			}
+			.vencanja-info {
+				width: 90%;
+				background-color: #162027;
+				text-align: left;
+				color: #fff;
+				margin: 0 auto;
+				padding-bottom: 30px;
+				h5 {
+					font: 400 17px 'Open Sans', sans-serif;
+					margin-left: 10px;
+				}
+				p {
+					font: 400 13px 'Open Sans', sans-serif;
+				}
+			}
+			.vencanja-slike {
+				width: 100%;
+				.ven-img-container {
+					width: 100%;
+					height: 300px;
+					-webkit-background-size: cover;
+					background-size: cover;
+					background-position: center;
+				}
+				.ven-img-container-1 {					
+					background-image: url(../img/vencanja/ven-1.jpg);
+				}
+				.ven-img-container-2 {					
+					background-image: url(../img/vencanja/ven-2.jpg);
+				}
+				.ven-img-container-3 {					
+					background-image: url(../img/vencanja/ven-3.jpg);
+				}
+				.ven-img-container-4 {					
+					background-image: url(../img/vencanja/ven-4.jpg);
+				}
+				.ven-img-container-5 {					
+					background-image: url(../img/vencanja/ven-5.jpg);
+				}
+				.ven-img-container-6 {					
+					background-image: url(../img/vencanja/ven-6.jpg);
+				}
+			}
+			.template-footer {
+				width: 100%;
+				padding-top: 40px;
+				.social-in-template {
+					width: 80px;
+					margin: 0 auto;
+					a {
+						width: 25px;
+						display: inline-block;
+						margin-left: 0;
+						img {
+							width: 25px;
+						}
+					}
+					a:last-child {
+						margin-left: 25px;
+					}
+				}
+				p {
+					font: 400 16px 'Open Sans', sans-serif;
+					color: #fff;
+					padding: 25px 0 40px 0;
+					text-align: center;
+				}
+			}
 		}
 	}
 
