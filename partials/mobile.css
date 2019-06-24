@@ -123,7 +123,9 @@ body {
     /* VENCANJA*/
     /* GALERIJA */
     /* RODJENDANI*/
-    /* DOGADJAJI*/ }
+    /* DOGADJAJI*/
+    /*BUKETI*/
+    /*BOX*/ }
     body .main-container .landing-slide {
       width: 100%;
       height: 100%;
@@ -505,6 +507,158 @@ body {
           body .main-container .dogadjaji .template-footer .social-in-template a:last-child {
             margin-left: 25px; }
         body .main-container .dogadjaji .template-footer p {
+          font: 400 16px 'Open Sans', sans-serif;
+          color: #fff;
+          padding: 25px 0 40px 0;
+          text-align: center; }
+    body .main-container .buketi {
+      width: 100%;
+      background-color: #162027;
+      text-align: center; }
+      body .main-container .buketi .buketi-head {
+        width: 100%;
+        background-color: #162027;
+        padding: 50px 0 10px 0; }
+        body .main-container .buketi .buketi-head .img-container {
+          background-image: url(../img/buket3.jpg);
+          -webkit-background-size: cover;
+          background-size: cover;
+          background-position: center;
+          height: 400px; }
+          body .main-container .buketi .buketi-head .img-container h2 {
+            font: 500 32px 'Open Sans', sans-serif;
+            color: #fff;
+            padding-top: 30%; }
+          body .main-container .buketi .buketi-head .img-container img {
+            width: 80px; }
+        body .main-container .buketi .buketi-head img {
+          width: 130px;
+          padding: 10px; }
+      body .main-container .buketi .buketi-info {
+        width: 90%;
+        background-color: #162027;
+        text-align: left;
+        color: #fff;
+        margin: 0 auto;
+        padding-bottom: 30px; }
+        body .main-container .buketi .buketi-info h5 {
+          font: 400 17px 'Open Sans', sans-serif;
+          margin-left: 10px; }
+        body .main-container .buketi .buketi-info p {
+          font: 400 13px 'Open Sans', sans-serif; }
+      body .main-container .buketi .buketi-slike {
+        width: 100%; }
+        body .main-container .buketi .buketi-slike .buk-img-container {
+          width: 100%;
+          height: 300px;
+          -webkit-background-size: cover;
+          background-size: cover;
+          background-position: center; }
+        body .main-container .buketi .buketi-slike .buk-img-container-1 {
+          background-image: url(../img/buketi/buk-1.jpg); }
+        body .main-container .buketi .buketi-slike .buk-img-container-2 {
+          background-image: url(../img/buketi/buk-2.jpg); }
+        body .main-container .buketi .buketi-slike .buk-img-container-3 {
+          background-image: url(../img/buketi/buk-3.jpg); }
+        body .main-container .buketi .buketi-slike .buk-img-container-4 {
+          background-image: url(../img/buketi/buk-4.jpg); }
+        body .main-container .buketi .buketi-slike .buk-img-container-5 {
+          background-image: url(../img/buketi/buk-5.jpg); }
+        body .main-container .buketi .buketi-slike .buk-img-container-6 {
+          background-image: url(../img/buketi/buk-6.jpg); }
+        body .main-container .buketi .buketi-slike .buk-img-container-7 {
+          background-image: url(../img/buketi/buk-7.jpg); }
+      body .main-container .buketi .template-footer {
+        width: 100%;
+        padding-top: 40px; }
+        body .main-container .buketi .template-footer .social-in-template {
+          width: 80px;
+          margin: 0 auto; }
+          body .main-container .buketi .template-footer .social-in-template a {
+            width: 25px;
+            display: inline-block;
+            margin-left: 0; }
+            body .main-container .buketi .template-footer .social-in-template a img {
+              width: 25px; }
+          body .main-container .buketi .template-footer .social-in-template a:last-child {
+            margin-left: 25px; }
+        body .main-container .buketi .template-footer p {
+          font: 400 16px 'Open Sans', sans-serif;
+          color: #fff;
+          padding: 25px 0 40px 0;
+          text-align: center; }
+    body .main-container .box {
+      width: 100%;
+      background-color: #162027;
+      text-align: center; }
+      body .main-container .box .box-head {
+        width: 100%;
+        background-color: #162027;
+        padding: 50px 0 10px 0; }
+        body .main-container .box .box-head .img-container {
+          background-image: url(../img/box.jpg);
+          -webkit-background-size: cover;
+          background-size: cover;
+          background-position: center;
+          height: 400px; }
+          body .main-container .box .box-head .img-container h2 {
+            font: 500 32px 'Open Sans', sans-serif;
+            color: #fff;
+            padding-top: 30%; }
+          body .main-container .box .box-head .img-container img {
+            width: 80px; }
+        body .main-container .box .box-head img {
+          width: 130px;
+          padding: 10px; }
+      body .main-container .box .box-info {
+        width: 90%;
+        background-color: #162027;
+        text-align: left;
+        color: #fff;
+        margin: 0 auto;
+        padding-bottom: 30px; }
+        body .main-container .box .box-info h5 {
+          font: 400 17px 'Open Sans', sans-serif;
+          margin-left: 10px; }
+        body .main-container .box .box-info p {
+          font: 400 13px 'Open Sans', sans-serif; }
+      body .main-container .box .box-slike {
+        width: 100%; }
+        body .main-container .box .box-slike .box-img-container {
+          width: 100%;
+          height: 300px;
+          -webkit-background-size: cover;
+          background-size: cover;
+          background-position: center; }
+        body .main-container .box .box-slike .box-img-container-1 {
+          background-image: url(../img/box/box-1.jpg); }
+        body .main-container .box .box-slike .box-img-container-2 {
+          background-image: url(../img/box/box-2.jpg); }
+        body .main-container .box .box-slike .box-img-container-3 {
+          background-image: url(../img/box/box-3.jpg); }
+        body .main-container .box .box-slike .box-img-container-4 {
+          background-image: url(../img/box/box-4.jpg); }
+        body .main-container .box .box-slike .box-img-container-5 {
+          background-image: url(../img/box/box-5.jpg); }
+        body .main-container .box .box-slike .box-img-container-6 {
+          background-image: url(../img/box/box-6.jpg); }
+        body .main-container .box .box-slike .box-img-container-7 {
+          background-image: url(../img/box/box-7.jpg); }
+      body .main-container .box .template-footer {
+        width: 100%;
+        padding-top: 40px; }
+        body .main-container .box .template-footer .social-in-template {
+          width: 80px;
+          margin: 0 auto; }
+          body .main-container .box .template-footer .social-in-template a {
+            width: 25px;
+            display: inline-block;
+            margin-left: 0; }
+            body .main-container .box .template-footer .social-in-template a img {
+              width: 25px; }
+          body .main-container .box .template-footer .social-in-template a:last-child {
+            margin-left: 25px; }
+        body .main-container .box .template-footer p {
           font: 400 16px 'Open Sans', sans-serif;
           color: #fff;
           padding: 25px 0 40px 0;
