@@ -119,7 +119,7 @@ proslaveShow.onclick = () => {
 
 $(document).ready(function()	{
 
-    	$(".nav-buttons").click( function(){
+    	$(".open-templates").click( function(){
 
 		$(".landing-slide").hide();
 		$(".logo-landing").hide();
