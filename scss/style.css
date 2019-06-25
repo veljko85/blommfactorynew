@@ -247,13 +247,16 @@ body {
         body .main-container .vencanja .vencanja-info p {
           font: 400 13px 'Open Sans', sans-serif; }
       body .main-container .vencanja .vencanja-slike {
-        width: 100%; }
+        width: 90%;
+        background-color: #fff;
+        padding: 50px 5% 20px 5%; }
         body .main-container .vencanja .vencanja-slike .ven-img-container {
           width: 100%;
           height: 300px;
           -webkit-background-size: cover;
           background-size: cover;
-          background-position: center; }
+          background-position: center;
+          margin-bottom: 50px; }
         body .main-container .vencanja .vencanja-slike .ven-img-container-1 {
           background-image: url(../img/vencanja/ven-1.jpg); }
         body .main-container .vencanja .vencanja-slike .ven-img-container-2 {
@@ -278,7 +281,8 @@ body {
           background-image: url(../img/vencanja/ven-11.jpg); }
       body .main-container .vencanja .template-footer {
         width: 100%;
-        padding-top: 40px; }
+        padding-top: 40px;
+        background-color: #fff; }
         body .main-container .vencanja .template-footer .social-in-template {
           width: 80px;
           margin: 0 auto; }
@@ -292,7 +296,7 @@ body {
             margin-left: 25px; }
         body .main-container .vencanja .template-footer p {
           font: 400 16px 'Open Sans', sans-serif;
-          color: #fff;
+          color: #000;
           padding: 25px 0 40px 0;
           text-align: center; }
     body .main-container .galerija {
@@ -369,7 +373,7 @@ body {
         background-color: #162027;
         padding: 50px 0 10px 0; }
         body .main-container .rodjendani .rodjendani-head .img-container {
-          background-image: url(../img/rodjendani.jpg);
+          background-image: url(../img/rodjendani1.jpg);
           -webkit-background-size: cover;
           background-size: cover;
           background-position: center;
@@ -396,13 +400,16 @@ body {
         body .main-container .rodjendani .rodjendani-info p {
           font: 400 13px 'Open Sans', sans-serif; }
       body .main-container .rodjendani .rodjendani-slike {
-        width: 100%; }
+        width: 90%;
+        background-color: #fff;
+        padding: 50px 5% 20px 5%; }
         body .main-container .rodjendani .rodjendani-slike .rodj-img-container {
           width: 100%;
           height: 300px;
           -webkit-background-size: cover;
           background-size: cover;
-          background-position: center; }
+          background-position: center;
+          margin-bottom: 50px; }
         body .main-container .rodjendani .rodjendani-slike .rodj-img-container-1 {
           background-image: url(../img/rodjendani/rodj-1.jpg); }
         body .main-container .rodjendani .rodjendani-slike .rodj-img-container-2 {
@@ -417,9 +424,26 @@ body {
           background-image: url(../img/rodjendani/rodj-6.jpg); }
         body .main-container .rodjendani .rodjendani-slike .rodj-img-container-7 {
           background-image: url(../img/rodjendani/rodj-7.jpg); }
+        body .main-container .rodjendani .rodjendani-slike .rodj-img-container-8 {
+          background-image: url(../img/rodjendani/rodj-8.jpg); }
+        body .main-container .rodjendani .rodjendani-slike .rodj-img-container-9 {
+          background-image: url(../img/rodjendani/rodj-9.jpg); }
+        body .main-container .rodjendani .rodjendani-slike .rodj-img-container-10 {
+          background-image: url(../img/rodjendani/rodj-10.jpg); }
+        body .main-container .rodjendani .rodjendani-slike .rodj-img-container-11 {
+          background-image: url(../img/rodjendani/rodj-11.jpg); }
+        body .main-container .rodjendani .rodjendani-slike .rodj-img-container-12 {
+          background-image: url(../img/rodjendani/rodj-12.jpg); }
+        body .main-container .rodjendani .rodjendani-slike .rodj-img-container-13 {
+          background-image: url(../img/rodjendani/rodj-13.jpg); }
+        body .main-container .rodjendani .rodjendani-slike .rodj-img-container-14 {
+          background-image: url(../img/rodjendani/rodj-14.jpg); }
+        body .main-container .rodjendani .rodjendani-slike .rodj-img-container-15 {
+          background-image: url(../img/rodjendani/rodj-15.jpg); }
       body .main-container .rodjendani .template-footer {
         width: 100%;
-        padding-top: 40px; }
+        padding-top: 40px;
+        background-color: #fff; }
         body .main-container .rodjendani .template-footer .social-in-template {
           width: 80px;
           margin: 0 auto; }
@@ -433,7 +457,7 @@ body {
             margin-left: 25px; }
         body .main-container .rodjendani .template-footer p {
           font: 400 16px 'Open Sans', sans-serif;
-          color: #fff;
+          color: #000;
           padding: 25px 0 40px 0;
           text-align: center; }
     body .main-container .dogadjaji {
@@ -472,13 +496,16 @@ body {
         body .main-container .dogadjaji .dogadjaji-info p {
           font: 400 13px 'Open Sans', sans-serif; }
       body .main-container .dogadjaji .dogadjaji-slike {
-        width: 100%; }
+        width: 90%;
+        background-color: #fff;
+        padding: 50px 5% 20px 5%; }
         body .main-container .dogadjaji .dogadjaji-slike .dog-img-container {
           width: 100%;
           height: 300px;
           -webkit-background-size: cover;
           background-size: cover;
-          background-position: center; }
+          background-position: center;
+          margin-bottom: 50px; }
         body .main-container .dogadjaji .dogadjaji-slike .dog-img-container-1 {
           background-image: url(../img/dogadjaji/dog-1.jpg); }
         body .main-container .dogadjaji .dogadjaji-slike .dog-img-container-2 {
@@ -495,7 +522,8 @@ body {
           background-image: url(../img/dogadjaji/dog-7.jpg); }
       body .main-container .dogadjaji .template-footer {
         width: 100%;
-        padding-top: 40px; }
+        padding-top: 40px;
+        background-color: #fff; }
         body .main-container .dogadjaji .template-footer .social-in-template {
           width: 80px;
           margin: 0 auto; }
@@ -509,7 +537,7 @@ body {
             margin-left: 25px; }
         body .main-container .dogadjaji .template-footer p {
           font: 400 16px 'Open Sans', sans-serif;
-          color: #fff;
+          color: #000;
           padding: 25px 0 40px 0;
           text-align: center; }
     body .main-container .buketi {
@@ -548,13 +576,16 @@ body {
         body .main-container .buketi .buketi-info p {
           font: 400 13px 'Open Sans', sans-serif; }
       body .main-container .buketi .buketi-slike {
-        width: 100%; }
+        width: 90%;
+        background-color: #fff;
+        padding: 50px 5% 20px 5%; }
         body .main-container .buketi .buketi-slike .buk-img-container {
           width: 100%;
           height: 300px;
           -webkit-background-size: cover;
           background-size: cover;
-          background-position: center; }
+          background-position: center;
+          margin-bottom: 50px; }
         body .main-container .buketi .buketi-slike .buk-img-container-1 {
           background-image: url(../img/buketi/buk-1.jpg); }
         body .main-container .buketi .buketi-slike .buk-img-container-2 {
@@ -571,7 +602,8 @@ body {
           background-image: url(../img/buketi/buk-7.jpg); }
       body .main-container .buketi .template-footer {
         width: 100%;
-        padding-top: 40px; }
+        padding-top: 40px;
+        background-color: #fff; }
         body .main-container .buketi .template-footer .social-in-template {
           width: 80px;
           margin: 0 auto; }
@@ -585,7 +617,7 @@ body {
             margin-left: 25px; }
         body .main-container .buketi .template-footer p {
           font: 400 16px 'Open Sans', sans-serif;
-          color: #fff;
+          color: #000;
           padding: 25px 0 40px 0;
           text-align: center; }
     body .main-container .box {
@@ -624,13 +656,16 @@ body {
         body .main-container .box .box-info p {
           font: 400 13px 'Open Sans', sans-serif; }
       body .main-container .box .box-slike {
-        width: 100%; }
+        width: 90%;
+        background-color: #fff;
+        padding: 50px 5% 20px 5%; }
         body .main-container .box .box-slike .box-img-container {
           width: 100%;
           height: 300px;
           -webkit-background-size: cover;
           background-size: cover;
-          background-position: center; }
+          background-position: center;
+          margin-bottom: 50px; }
         body .main-container .box .box-slike .box-img-container-1 {
           background-image: url(../img/box/box-1.jpg); }
         body .main-container .box .box-slike .box-img-container-2 {
@@ -647,7 +682,8 @@ body {
           background-image: url(../img/box/box-7.jpg); }
       body .main-container .box .template-footer {
         width: 100%;
-        padding-top: 40px; }
+        padding-top: 40px;
+        background-color: #fff; }
         body .main-container .box .template-footer .social-in-template {
           width: 80px;
           margin: 0 auto; }
@@ -661,7 +697,7 @@ body {
             margin-left: 25px; }
         body .main-container .box .template-footer p {
           font: 400 16px 'Open Sans', sans-serif;
-          color: #fff;
+          color: #000;
           padding: 25px 0 40px 0;
           text-align: center; }
 
