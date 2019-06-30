@@ -238,6 +238,17 @@ body  {
 					box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
 				}
 			}
+			h1 {
+				font: 400 28px 'Open Sans', sans-serif;
+				width: 90%;
+				margin-left: 5%
+			}
+			.contact-text {
+				font: 600 15px 'Open Sans', sans-serif;
+				padding-top: 12.75px;
+				width: 90%;
+				margin-left: 5%
+			}
 			.contact-info-container {
 				width: 80%;
 				padding: 0 10% 50px 10%;
@@ -443,6 +454,48 @@ body  {
 				.ven-img-container-11 {					
 					background-image: url(../img/vencanja/ven-11.jpg);
 				}
+				.ven-img-container-12 {					
+					background-image: url(../img/vencanja/ven-12.jpg);
+				}
+				.ven-img-container-13 {					
+					background-image: url(../img/vencanja/ven-13.jpg);
+				}
+				.ven-img-container-14 {					
+					background-image: url(../img/vencanja/ven-14.jpg);
+				}
+				.ven-img-container-15 {					
+					background-image: url(../img/vencanja/ven-15.jpg);
+				}
+				.ven-img-container-16 {					
+					background-image: url(../img/vencanja/ven-16.jpg);
+				}
+				.ven-img-container-17 {					
+					background-image: url(../img/vencanja/ven-17.jpg);
+				}
+				.ven-img-container-18 {					
+					background-image: url(../img/vencanja/ven-18.jpg);
+				}
+				.ven-img-container-19 {					
+					background-image: url(../img/vencanja/ven-19.jpg);
+				}
+				.ven-img-container-20 {					
+					background-image: url(../img/vencanja/ven-20.jpg);
+				}
+				.ven-img-container-21 {					
+					background-image: url(../img/vencanja/ven-21.jpg);
+				}
+				.ven-img-container-22 {					
+					background-image: url(../img/vencanja/ven-22.jpg);
+				}
+				.ven-img-container-23 {					
+					background-image: url(../img/vencanja/ven-23.jpg);
+				}
+				.ven-img-container-24 {					
+					background-image: url(../img/vencanja/ven-24.jpg);
+				}
+				.ven-img-container-25 {					
+					background-image: url(../img/vencanja/ven-25.jpg);
+				}
 			}
 		}
 
@@ -544,15 +597,6 @@ body  {
 				.dog-img-container-4 {					
 					background-image: url(../img/dogadjaji/dog-4.jpg);
 				}
-				.dog-img-container-5 {					
-					background-image: url(../img/dogadjaji/dog-5.jpg);
-				}
-				.dog-img-container-6 {					
-					background-image: url(../img/dogadjaji/dog-6.jpg);
-				}
-				.dog-img-container-7 {					
-					background-image: url(../img/dogadjaji/dog-7.jpg);
-				}
 			}
 		}
 		/*BUKETI*/
@@ -570,8 +614,14 @@ body  {
 			}
 			.buketi-slike {
 				@extend .usluge-slike;
+				p {
+					font: 600 15px 'Open Sans', sans-serif;
+					color: #000;
+					margin-bottom: 30px;
+				}
 				.buk-img-container {
 					@extend .usluge-gal-img-container;
+					margin-bottom: 10px;
 				}
 				.buk-img-container-1 {					
 					background-image: url(../img/buketi/buk-1.jpg);
@@ -594,6 +644,66 @@ body  {
 				.buk-img-container-7 {					
 					background-image: url(../img/buketi/buk-7.jpg);
 				}
+				.buk-img-container-8 {					
+					background-image: url(../img/buketi/buk-8.jpg);
+				}
+				.buk-img-container-9 {					
+					background-image: url(../img/buketi/buk-9.jpg);
+				}
+				.buk-img-container-10 {					
+					background-image: url(../img/buketi/buk-10.jpg);
+				}
+				.buk-img-container-11 {					
+					background-image: url(../img/buketi/buk-11.jpg);
+				}
+				.buk-img-container-12 {					
+					background-image: url(../img/buketi/buk-12.jpg);
+				}
+				.buk-img-container-13 {					
+					background-image: url(../img/buketi/buk-13.jpg);
+				}
+				.buk-img-container-14 {					
+					background-image: url(../img/buketi/buk-14.jpg);
+				}
+				.buk-img-container-15 {					
+					background-image: url(../img/buketi/buk-15.jpg);
+				}
+				.buk-img-container-16 {					
+					background-image: url(../img/buketi/buk-16.jpg);
+				}
+				.buk-img-container-17 {					
+					background-image: url(../img/buketi/buk-17.jpg);
+				}
+				.buk-img-container-18 {					
+					background-image: url(../img/buketi/buk-18.jpg);
+				}
+				.buk-img-container-19 {					
+					background-image: url(../img/buketi/buk-19.jpg);
+				}
+				.buk-img-container-20 {					
+					background-image: url(../img/buketi/buk-20.jpg);
+				}
+				.buk-img-container-21 {					
+					background-image: url(../img/buketi/buk-21.jpg);
+				}
+				.buk-img-container-22 {					
+					background-image: url(../img/buketi/buk-22.jpg);
+				}
+				.buk-img-container-23 {					
+					background-image: url(../img/buketi/buk-23.jpg);
+				}
+				.buk-img-container-24 {					
+					background-image: url(../img/buketi/buk-24.jpg);
+				}
+				.buk-img-container-25 {					
+					background-image: url(../img/buketi/buk-25.jpg);
+				}
+				.buk-img-container-26 {					
+					background-image: url(../img/buketi/buk-26.jpg);
+				}
+				.buk-img-container-27 {					
+					background-image: url(../img/buketi/buk-27.jpg);
+				}
 			}
 		}
 		/*BOX*/
@@ -611,8 +721,14 @@ body  {
 			}
 			.box-slike {
 				@extend .usluge-slike;
+				p {
+					font: 600 15px 'Open Sans', sans-serif;
+					color: #000;
+					margin-bottom: 30px;
+				}
 				.box-img-container {
 					@extend .usluge-gal-img-container;
+					margin-bottom: 10px;
 				}
 				.box-img-container-1 {					
 					background-image: url(../img/box/box-1.jpg);
@@ -634,6 +750,48 @@ body  {
 				}
 				.box-img-container-7 {					
 					background-image: url(../img/box/box-7.jpg);
+				}
+				.box-img-container-8 {					
+					background-image: url(../img/box/box-8.jpg);
+				}
+				.box-img-container-9 {					
+					background-image: url(../img/box/box-9.jpg);
+				}
+				.box-img-container-10 {					
+					background-image: url(../img/box/box-10.jpg);
+				}
+				.box-img-container-11 {					
+					background-image: url(../img/box/box-11.jpg);
+				}
+				.box-img-container-12 {					
+					background-image: url(../img/box/box-12.jpg);
+				}
+				.box-img-container-13 {					
+					background-image: url(../img/box/box-13.jpg);
+				}
+				.box-img-container-14 {					
+					background-image: url(../img/box/box-14.jpg);
+				}
+				.box-img-container-15 {					
+					background-image: url(../img/box/box-15.jpg);
+				}
+				.box-img-container-16 {					
+					background-image: url(../img/box/box-16.jpg);
+				}
+				.box-img-container-17 {					
+					background-image: url(../img/box/box-17.jpg);
+				}
+				.box-img-container-18 {					
+					background-image: url(../img/box/box-18.jpg);
+				}
+				.box-img-container-19 {					
+					background-image: url(../img/box/box-19.jpg);
+				}
+				.box-img-container-20 {					
+					background-image: url(../img/box/box-20.jpg);
+				}
+				.box-img-container-21 {					
+					background-image: url(../img/box/box-21.jpg);
 				}
 			}
 		}

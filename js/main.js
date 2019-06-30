@@ -110,11 +110,31 @@ proslaveShow.onclick = () => {
 
 
 
+//dodati cene ispod boxeva
 
 
+if (document.getElementById("box-slike") !== null) {
 
+	var box = document.getElementById("box-slike").children;
+	
+	for (var i = 0; i < box.length; i++) {
+		var cenaBox = document.createElement("P");
+		box[i].appendChild(cenaBox);
+		box[i].children[1].innerHTML = "Flower Box<br>3.000,00 rsd - 30.000,00 rsd";
+	}
+}
+//dodati cene ispod buketa
 
+if (document.getElementById("buketi-slike") !== null) {
 
+	var buketi = document.getElementById("buketi-slike").children;
+
+	for (var i = 0; i < buketi.length; i++) {
+		var cena = document.createElement("P");
+		buketi[i].appendChild(cena);
+		buketi[i].children[1].innerHTML = "Buketi<br>1.000,00 rsd - 25.000,00 rsd";
+	}
+}
 
 
 $(document).ready(function()	{
