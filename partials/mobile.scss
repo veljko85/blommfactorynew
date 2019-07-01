@@ -247,7 +247,25 @@ body  {
 				font: 600 15px 'Open Sans', sans-serif;
 				padding-top: 12.75px;
 				width: 90%;
-				margin-left: 5%
+				margin-left: 5%;
+			}
+			.dostava-prikazi-vise {
+				font: 600 15px 'Open Sans', sans-serif;
+				padding-top: 12.75px;
+				width: 90%;
+				margin: 30px 0 0 5%;
+				text-align: center;
+
+				img {
+					width: 15px;
+				}
+			}
+			.dostava-vise {
+				font: 400 15px 'Open Sans', sans-serif;
+				padding-top: 12.75px;
+				width: 90%;
+				margin-left: 5%;
+				display: none;
 			}
 			.contact-info-container {
 				width: 80%;
@@ -338,6 +356,249 @@ body  {
 				}
 				.gal-img-container-11 {					
 					background-image: url(../img/vencanja/ven-11.jpg);
+				}
+				.gal-img-container-12 {					
+					background-image: url(../img/vencanja/ven-12.jpg);
+				}
+				.gal-img-container-13 {					
+					background-image: url(../img/vencanja/ven-13.jpg);
+				}
+				.gal-img-container-14 {					
+					background-image: url(../img/vencanja/ven-14.jpg);
+				}
+				.gal-img-container-15 {					
+					background-image: url(../img/vencanja/ven-15.jpg);
+				}
+				.gal-img-container-16 {					
+					background-image: url(../img/vencanja/ven-16.jpg);
+				}
+				.gal-img-container-17 {					
+					background-image: url(../img/vencanja/ven-17.jpg);
+				}
+				.gal-img-container-18 {					
+					background-image: url(../img/vencanja/ven-18.jpg);
+				}
+				.gal-img-container-19 {					
+					background-image: url(../img/vencanja/ven-19.jpg);
+				}
+				.gal-img-container-20 {					
+					background-image: url(../img/vencanja/ven-20.jpg);
+				}
+				.gal-img-container-21 {					
+					background-image: url(../img/vencanja/ven-21.jpg);
+				}
+				.gal-img-container-22 {					
+					background-image: url(../img/vencanja/ven-22.jpg);
+				}
+				.gal-img-container-23 {					
+					background-image: url(../img/vencanja/ven-23.jpg);
+				}
+				.gal-img-container-24 {					
+					background-image: url(../img/vencanja/ven-24.jpg);
+				}
+				.gal-img-container-25 {					
+					background-image: url(../img/vencanja/ven-25.jpg);
+				}
+				.gal-img-container-26 {					
+					background-image: url(../img/rodjendani/rodj-1.jpg);
+				}
+				.gal-img-container-27 {					
+					background-image: url(../img/rodjendani/rodj-2.jpg);
+				}
+				.gal-img-container-28 {					
+					background-image: url(../img/rodjendani/rodj-3.jpg);
+				}
+				.gal-img-container-29 {					
+					background-image: url(../img/rodjendani/rodj-4.jpg);
+				}
+				.gal-img-container-30 {					
+					background-image: url(../img/rodjendani/rodj-5.jpg);
+				}
+				.gal-img-container-31 {					
+					background-image: url(../img/rodjendani/rodj-6.jpg);
+				}
+				.gal-img-container-32 {					
+					background-image: url(../img/rodjendani/rodj-7.jpg);
+				}
+				.gal-img-container-33 {					
+					background-image: url(../img/rodjendani/rodj-8.jpg);
+				}
+				.gal-img-container-34 {					
+					background-image: url(../img/rodjendani/rodj-9.jpg);
+				}
+				.gal-img-container-35 {					
+					background-image: url(../img/rodjendani/rodj-10.jpg);
+				}
+				.gal-img-container-36 {					
+					background-image: url(../img/rodjendani/rodj-11.jpg);
+				}
+				.gal-img-container-37 {					
+					background-image: url(../img/rodjendani/rodj-12.jpg);
+				}
+				.gal-img-container-38 {					
+					background-image: url(../img/rodjendani/rodj-13.jpg);
+				}
+				.gal-img-container-39 {					
+					background-image: url(../img/rodjendani/rodj-14.jpg);
+				}
+				.gal-img-container-40 {					
+					background-image: url(../img/rodjendani/rodj-15.jpg);
+				}
+				.gal-img-container-41 {					
+					background-image: url(../img/dogadjaji/dog-1.jpg);
+				}
+				.gal-img-container-42 {					
+					background-image: url(../img/dogadjaji/dog-2.jpg);
+				}
+				.gal-img-container-43 {					
+					background-image: url(../img/dogadjaji/dog-3.jpg);
+				}
+				.gal-img-container-44 {					
+					background-image: url(../img/dogadjaji/dog-4.jpg);
+				}
+				.gal-img-container-45 {					
+					background-image: url(../img/box/box-1.jpg);
+				}
+				.gal-img-container-46 {					
+					background-image: url(../img/box/box-2.jpg);
+				}
+				.gal-img-container-47 {					
+					background-image: url(../img/box/box-3.jpg);
+				}
+				.gal-img-container-48 {					
+					background-image: url(../img/box/box-4.jpg);
+				}
+				.gal-img-container-49 {					
+					background-image: url(../img/box/box-5.jpg);
+				}
+				.gal-img-container-50 {					
+					background-image: url(../img/box/box-6.jpg);
+				}
+				.gal-img-container-51 {					
+					background-image: url(../img/box/box-7.jpg);
+				}
+				.gal-img-container-52 {					
+					background-image: url(../img/box/box-8.jpg);
+				}
+				.gal-img-container-53 {					
+					background-image: url(../img/box/box-9.jpg);
+				}
+				.gal-img-container-54 {					
+					background-image: url(../img/box/box-10.jpg);
+				}
+				.gal-img-container-55 {					
+					background-image: url(../img/box/box-11.jpg);
+				}
+				.gal-img-container-56 {					
+					background-image: url(../img/box/box-12.jpg);
+				}
+				.gal-img-container-57 {					
+					background-image: url(../img/box/box-13.jpg);
+				}
+				.gal-img-container-58 {					
+					background-image: url(../img/box/box-14.jpg);
+				}
+				.gal-img-container-59 {					
+					background-image: url(../img/box/box-15.jpg);
+				}
+				.gal-img-container-60 {					
+					background-image: url(../img/box/box-16.jpg);
+				}
+				.gal-img-container-61 {					
+					background-image: url(../img/box/box-17.jpg);
+				}
+				.gal-img-container-62 {					
+					background-image: url(../img/box/box-18.jpg);
+				}
+				.gal-img-container-63 {					
+					background-image: url(../img/box/box-19.jpg);
+				}
+				.gal-img-container-64 {					
+					background-image: url(../img/box/box-20.jpg);
+				}
+				.gal-img-container-65 {					
+					background-image: url(../img/box/box-21.jpg);
+				}
+				.gal-img-container-66 {					
+					background-image: url(../img/buketi/buk-1.jpg);
+				}
+				.gal-img-container-67 {					
+					background-image: url(../img/buketi/buk-2.jpg);
+				}
+				.gal-img-container-68 {					
+					background-image: url(../img/buketi/buk-3.jpg);
+				}
+				.gal-img-container-69 {					
+					background-image: url(../img/buketi/buk-4.jpg);
+				}
+				.gal-img-container-70 {					
+					background-image: url(../img/buketi/buk-5.jpg);
+				}
+				.gal-img-container-71 {					
+					background-image: url(../img/buketi/buk-6.jpg);
+				}
+				.gal-img-container-72 {					
+					background-image: url(../img/buketi/buk-7.jpg);
+				}
+				.gal-img-container-73 {					
+					background-image: url(../img/buketi/buk-8.jpg);
+				}
+				.gal-img-container-74 {					
+					background-image: url(../img/buketi/buk-9.jpg);
+				}
+				.gal-img-container-75 {					
+					background-image: url(../img/buketi/buk-10.jpg);
+				}
+				.gal-img-container-76 {					
+					background-image: url(../img/buketi/buk-11.jpg);
+				}
+				.gal-img-container-77 {					
+					background-image: url(../img/buketi/buk-12.jpg);
+				}
+				.gal-img-container-78 {					
+					background-image: url(../img/buketi/buk-13.jpg);
+				}
+				.gal-img-container-79 {					
+					background-image: url(../img/buketi/buk-14.jpg);
+				}
+				.gal-img-container-80 {					
+					background-image: url(../img/buketi/buk-15.jpg);
+				}
+				.gal-img-container-81 {					
+					background-image: url(../img/buketi/buk-16.jpg);
+				}
+				.gal-img-container-82 {					
+					background-image: url(../img/buketi/buk-17.jpg);
+				}
+				.gal-img-container-83 {					
+					background-image: url(../img/buketi/buk-18.jpg);
+				}
+				.gal-img-container-84 {					
+					background-image: url(../img/buketi/buk-19.jpg);
+				}
+				.gal-img-container-85 {					
+					background-image: url(../img/buketi/buk-20.jpg);
+				}
+				.gal-img-container-86 {					
+					background-image: url(../img/buketi/buk-21.jpg);
+				}
+				.gal-img-container-87 {					
+					background-image: url(../img/buketi/buk-22.jpg);
+				}
+				.gal-img-container-88 {					
+					background-image: url(../img/buketi/buk-23.jpg);
+				}
+				.gal-img-container-89 {					
+					background-image: url(../img/buketi/buk-24.jpg);
+				}
+				.gal-img-container-90 {					
+					background-image: url(../img/buketi/buk-25.jpg);
+				}
+				.gal-img-container-91 {					
+					background-image: url(../img/buketi/buk-26.jpg);
+				}
+				.gal-img-container-92 {					
+					background-image: url(../img/buketi/buk-27.jpg);
 				}
 			}
 		}

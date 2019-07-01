@@ -7,9 +7,9 @@ var secLin = document.getElementById("second-line");
 var thiLin = document.getElementById("third-line");
 var nav = document.getElementById("nav");
 var heading = document.getElementById("heading");
-var uslugeShow = document.getElementById("usluge-show");
+
 var usluge = document.getElementById("usluge");
-var proslaveShow = document.getElementById("proslave-show");
+
 var proslave = document.getElementById("proslave");
 var navButtons = document.getElementsByClassName("nav-buttons");
 var navFooter = document.getElementById("nav-footer");
@@ -31,15 +31,7 @@ if (document.body.clientWidth < 768){
 
 
 
-function inNavExpand (thing, thingShow) {
-	if (thing.style.display == "block") {
-		thing.style.display = "none";
-		thingShow.children[0].style.transform = "rotate(0deg)";
-	} else {
-		thingShow.children[0].style.transform = "rotate(180deg)";
-		thing.style.display = "block";
-	}
-}
+
 
 
 function navClose () {
@@ -85,7 +77,7 @@ function navOpen () {
 			logo.style.opacity = 0;
 			logo.style.marginLeft = cliWid - 100 + "px";
 			logoLanding.style.marginLeft = 175 + "px";
-			nav.style.width = "250px"
+			nav.style.width = "250px";
 			navBackground.style.display = "block";
 }
 
@@ -99,15 +91,52 @@ hamBut.onclick = () => {
 		}
 
 }
+// da prosiri u nav baru kad se klikne na usluge ili dekoracije
 
-uslugeShow.onclick = () => {
+var proslaveShow = document.getElementById("proslave-show");
+var uslugeShow = document.getElementById("usluge-show");
+var uslugeText = document.getElementById("usluge-text");
+
+if (uslugeShow !== null) {
+
+	function inNavExpand (thing, thingShow) {
+		if (thing.style.display == "block") {
+			thing.style.display = "none";
+			thingShow.children[0].style.transform = "rotate(0deg)";
+		} else {
+			thingShow.children[0].style.transform = "rotate(180deg)";
+			thing.style.display = "block";
+		}
+	}
+
+
+	uslugeShow.onclick = () => {
+			inNavExpand(usluge, uslugeShow);
+	}
+
+	uslugeText.onclick = () => {
 		inNavExpand(usluge, uslugeShow);
-}
+	}
 
-proslaveShow.onclick = () => {
-	inNavExpand(proslave, proslaveShow);
-}
+	proslaveShow.onclick = () => {
+		inNavExpand(proslave, proslaveShow);
+	}
 
+	dekoracijaButton.onclick = () => {
+		inNavExpand(proslave, proslaveShow);
+	}
+}
+//prikazi vise info o stavama
+
+if (document.getElementById("contact") !== null) {
+
+	var prikaziViseDostave = document.getElementById("dostava-prikazi-vise");
+	var dostaveVise = document.getElementById("dostava-vise");
+
+	prikaziViseDostave.onclick = () => {
+		dostaveVise.style.display = "block";
+	}
+} 
 
 
 //dodati cene ispod boxeva
